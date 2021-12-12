@@ -1,0 +1,28 @@
+@media screen and (max-width:700px){
+
+    :root{
+        --fundo-hamb:#fff;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    header .container .menu-prin{
+        margin-top: 3%;
+        margin-bottom: -1%;
+    }
+
+    .photos .container{
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .photos .container .cont{
+        padding: 10%;
+    }
+
+
+}

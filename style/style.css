@@ -1,0 +1,80 @@
+:root{
+    --fundo:#e5e5e5;
+    --cab:#111111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--fundo);
+    font-family: 'Montserrat' ,sans-serif;
+}
+
+header {
+    background: var(--cab);
+    padding: 20px;
+    color: white;
+    margin-bottom: 7%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    position: relative;
+    background: var(--cab);
+    padding: 20px;
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social-icons a{
+    margin-left: 5px;
+    color: white;
+}
+
+footer .social-icons a:hover{
+    color: #0003b4
+}
+
+header .menu-prin a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+
+.container{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.photos .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photos .container .cont{
+    background-color: #0003b4;
+    padding: 7%;
+    margin: 2% 0%;
+}
+
+.photos .container .cont:hover{
+    background-color: var(--cab);
+}
+
